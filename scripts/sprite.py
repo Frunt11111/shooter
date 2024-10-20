@@ -5,7 +5,7 @@ class Sprite():
         self.rect = image.get_rect(center=(x, y))
 
 
-    def is_cloide(self, other):
+    def is_collide(self, other):
         return self.rect.colliderect(other.rect)
 
     def render(self, window):

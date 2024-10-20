@@ -4,6 +4,9 @@ import pygame
 
 
 class Player(Sprite):
+    def __init__(self, image, x, y, speed, health):
+        super().__init__(image, x, y, speed)
+        self.health = health
     def update(self):
         keys = pygame.key.get_pressed()
         
