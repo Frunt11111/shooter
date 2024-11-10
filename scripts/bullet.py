@@ -1,5 +1,4 @@
-from scripts.sprite import Sprite
-import pygame
+from .sprite import Sprite
 
 class Bullet(Sprite):
     def update(self):
